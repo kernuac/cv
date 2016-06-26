@@ -1,0 +1,179 @@
+\documentclass[letterpaper]{report}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{mdframed}
+\usepackage{marvosym}
+\renewcommand{\familydefault}{\sfdefault}
+%\setlength{\parindent}{0}
+%-------------- margenes ------------------
+\geometry{
+    top=2cm,
+    right=2cm,
+    left=2cm,
+    bottom=2cm,
+}
+
+\pagestyle{empty}
+\newenvironment{header}
+{
+    \begin{mdframed}
+    [backgroundcolor=White,linecolor=white,linewidth=10pt]
+        \begin{center}
+}
+{
+        \end{center}
+    \end{mdframed}
+    \textcolor{OliveGreen}{\hrule}
+}
+
+\newcommand{\name}[2] {
+    \LARGE{\textcolor{OliveGreen}{#1 \textbf{#2}}}
+}
+\newcommand{\resume}[1]{
+    \begin{minipage}[t]{.2\linewidth}
+		\hspace{1\linewidth}
+    \end{minipage}
+    \hspace{.02\linewidth}
+    \begin{minipage}[t]{.8\linewidth}
+        \normalsize#1
+        \newline
+    \end{minipage}
+    \newline
+    
+    %\begin{minipage}[t]{.2\linewidth}
+	%	\begin{flushright}
+	%	tarado
+	%	\hspace{.207\linewidth}\par
+	%	\hspace{.207\linewidth}\par
+	%	\end{flushright}
+    %\end{minipage}
+    %\hspace{.02\linewidth}
+    %\begin{minipage}[t]{.8\linewidth}
+    %   \hspace{.02\linewidth}#1
+	%	\newline
+    %\end{minipage}
+}
+\newcommand{\experience}[3]{
+    %\item[#1] #2 \\ #3
+    \begin{minipage}[t]{.2\linewidth}
+        \begin{flushright}
+            \textbf{\normalsize#1}
+        \end{flushright}
+    \end{minipage}
+    \hspace{.02\linewidth}
+    \begin{minipage}[t]{.8\linewidth}
+        \textbf{\normalsize#2}
+        \newline
+        {\normalsize#3}
+        \newline
+    \end{minipage}
+    \newline
+}
+
+\newcommand{\skill}[2]{
+    \begin{minipage}[t]{.2\linewidth}
+        \begin{flushright}
+            \normalsize#1
+        \end{flushright}
+    \end{minipage}
+    \hspace{.02\linewidth}
+    \begin{minipage}[t]{.8\linewidth}
+        \normalsize#2
+        \newline
+    \end{minipage}
+    \newline
+}
+
+\newcommand{\contact}[3] {
+    \normalsize{\textcolor{gray}{#1 -- #2 -- \ttfamily#3}}
+}
+
+\newcommand{\major}[1] {
+    \large{#1}
+}
+
+\titleformat{\section}
+[block]
+{\large\bf\color{OliveGreen}}
+{}
+{0em}
+{\begin{minipage}{.2\linewidth}\colorbox{OliveGreen}{\hspace{.95\linewidth}}\end{minipage}\hspace{1.05em}}
+{}
+
+
+\begin{document}
+	\begin{header}
+		\name{Cristhian Andr\'es}{Vega Cort\'es}\\
+		\major{Ing. en Inform\'atica}\\
+		\contact{\PointingHand 16.326.682-2}{\Mobilefone +569 8 2671793}{\Letter cristhianv.info@gmail.com}
+    \end{header}  
+    \section*{Resumen}
+        \resume{Profesional autodidacta, con capacidad para trabajar en equipo y
+			establecer buenas relaciones con sus pares. Destaca su
+			puntualidad, responsabilidad y compromiso para cumplir metas.}	
+    \section*{Experiencia Laboral}
+        \experience{2013 -- Presente}{Ingeniero de Soporte Tecnol\'ogico - Universidad de Atacama}{
+				
+				Administrador de una red de m\'as de 250 computadores,
+                controlados bajo Windows 2008 Server. Gesti\'on de
+                m\'as de 1000 perfiles de usuario mediante pol\'iticas
+                de grupo con permisos diferenciados seg\'un criterios
+                definidos. Éstas póliticas redujeron la tasa
+                mantenciones correctivas a un 2\% y las infecciones por
+                virus y software malicioso al mínimo en 2 a\~nos de
+                implementaci\'on. 
+                La centralizaci\'on de perfiles de usuario,
+                para la plana administrativa, permiti\'o la disminuci\'on en
+                tiempo de puesta en marcha de las estaciones de trabajo,
+                por cambio de equipo de diversa \'indole, y la
+                automatizaci\'on de los sistemas de Respaldo de dichos
+                perfiles.
+            }            
+        \experience{2012 -- 2013}{Ingeniero de Soporte - Holding San Carlos}{
+				Administraci\'on General de Redes y Servicios
+                Desarrollo de aplicaciones PHP + MySQL para el
+                apoyo a la gesti\'on y toma de decisiones por
+                parte de la gerencia.\\
+                Soporte y Mantenci\'on a estaciones de trabajo 
+                MS-Windows.
+			}
+        \experience{2009 -- 2012}{Administrativo Inform\'atico - Universidad del Mar}{
+				Administrador de una red de 250 computadores, controladas
+                bajo un Controlador de Dominio Windows 2008 Server. 
+                Gesti\'on de mas de 1200 perfiles de usuarios mediante
+                pol\'ticas de grupo con permisos diferenciados seg\'un
+                necesidades de la instituci\'on. Tales pol\'iticas
+                redujeron la tasa de mantenciones correctivas a los
+                equipos a un 2\% en 3 a\~nos de implementaci\'on.
+			}
+    \section*{Formaci\'on Acad\'emica}
+        \experience{INACAP}{Ingeniero en Inform\'atica}{Destacado como el Mejor Egresado de su Promoci\'on}
+    \section*{Idiomas}
+		\skill{Espa\~nol}{Nativo}
+		\skill{Ingl\'es}{Escrito - Intermedio, Hablado - B\'asico}
+    \pagebreak
+    \section*{Habilidades}
+        \skill{Sistemas Operativos}{GNU/Linux, Ms Windows}
+        \skill{Leng. de Programaci\'on}{Python, C\#, PHP, C,C++, Java}
+        \skill{Lenguajes de Scripting}{javascript, bash}
+        \skill{Frameworks Web}{Angular.js, JQuery, CakePHP}
+        \skill{Ofim\'atica}{LibreOffice, Ms-Office, Latex}
+        \skill{Servicios}{Proxy Cache(SQUID), Active Directory, DNS (Bind9),
+			Paravitualización (Xen), Servicios Web (Apache2, Nginx),
+			Captive portal, Bases de Datos (SQL Server, MySQL),
+			Firewall (iptables)
+        }
+        \skill{LMS}{Moodle, Dokeos, Claroline}
+        \skill{CMS}{Joomla, Drupal, e107, Wordpress, Blogger}
+	\section*{Cursos / Diplomados}
+		\skill{P. Universidad Cat\'olica}{Evaluaci\'on de Decisiones
+			  Estrat\'egicas}
+		\skill{CodeSchool}{Shaping up with Angular.js}
+		\skill{}{Staying Sharp with Angular.js (En curso)}
+		\skill{CodeAchademy}{Angular.js}
+		\skill{U. Aut\'onoma de Madrid}{Jugando con Android - Aprende a programar tu primera App}
+        \skill{World Wide Web Consortium (W3C)}{HTML5 Introduction}
+        \skill{World Wide Web Consortium (W3C)}
+            {HTML5 Coding Essentials and Best Practices}
+\end{document}
