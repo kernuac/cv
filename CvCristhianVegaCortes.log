@@ -1,12 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.26)  26 JUN 2016 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.9)  28 JUN 2016 10:20
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**CvCristhianVegaCortes.tex --output-directory=dist
+**CvCristhianVegaCortes.tex
 (./CvCristhianVegaCortes.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 5 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+(./cvStyle1.cls (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -24,6 +25,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+Document Class: cvStyle1 2016/06/28 Curriculum Vitae Style 1
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
@@ -388,43 +390,74 @@ Package zref Info: New property: mdf@pagevalue on input line 895.
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2014/04/24 v5.0n Spanish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count129
+\U@D=\dimen147
+)
+\es@quottoks=\toks17
+\es@quotdepth=\count130
+Package babel Info: Making " an active character on input line 516.
+Package babel Info: Making . an active character on input line 617.
+Package babel Info: Making < an active character on input line 662.
+Package babel Info: Making > an active character on input line 662.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/block.tss
 File: block.tss 2011/12/15
-)
-No file CvCristhianVegaCortes.aux.
+))
+
+LaTeX Warning: Unused global option(s):
+    [paper=letterpaper,fontsize=11pt].
+
+(./CvCristhianVegaCortes.aux)
 \openout1 = `CvCristhianVegaCortes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
-\scratchdimen=\dimen147
+\scratchcounter=\count131
+\scratchdimen=\dimen148
 \scratchbox=\box47
-\nofMPsegments=\count130
-\nofMParguments=\count131
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count132
-\MPscratchDim=\dimen148
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
-\everyMPtoPDFconversion=\toks18
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen149
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks19
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: letterpaper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
@@ -455,42 +488,27 @@ LaTeX Font Info:    ... okay on input line 105.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box48
-LaTeX Font Info:    Try loading font information for U+mvs on input line 109.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 7.
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
-Package mdframed Info: Not enough space on this page on input line 110.
-
-Overfull \hbox (0.99492pt too wide) in paragraph at lines 111--111
-[][][][][][][] 
- []
-
+Package mdframed Info: Not enough space on this page on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 111.
+(Font)              <12> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 111.
+(Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 111.
+(Font)              <6> on input line 10.
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 114--114
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 15--16
 []   [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
-
- []
-
-
-Overfull \hbox (0.99492pt too wide) in paragraph at lines 115--115
-[][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
@@ -501,268 +519,323 @@ Missing character: There is no ³ in font cmss10!
 Missing character: There is no Ã in font cmss10!
 Missing character: There is no ­ in font cmss10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-
- []
-
-
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 132--150
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 33--34
 []   [] 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 132--150
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 42--52
 []   [] 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 132--150
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 42--52
 []   [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--150
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
 
  []
 
 
-Overfull \hbox (0.99492pt too wide) in paragraph at lines 150--150
-[][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 151--152
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 54--55
 []   [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Overfull \hbox (0.99492pt too wide) in paragraph at lines 152--152
-[][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
-
- []
-
-
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 153--156
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 57--58
 []   [] 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 153--156
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 59--61
 []   [] 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (0.99492pt too wide) in paragraph at lines 156--156
-[][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 63--64
+[]   [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 65--66
+[]   [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 67--68
+[]   [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 69--70
+[]   [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 71--72
+[]   [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
 Missing character: There is no Ã in font cmss10!
 Missing character: There is no ³ in font cmss10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
-
- []
-
-
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 157--169
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 77--78
 []   [] 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 157--169
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 79--80
 []   [] 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 157--169
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 81--82
 []   [] 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 157--169
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 85--86
 []   [] 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 157--169
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 87--88
 []   [] 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 157--169
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 89--90
 []   [] 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 157--169
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 91--92
 []   [] 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 157--169
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 93--94
 []   [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--169
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 
-Overfull \hbox (0.99492pt too wide) in paragraph at lines 169--169
-[][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-
- []
-
-
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 171--179
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 95--96
 []   [] 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 171--179
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+
+ []
+
+
+Overfull \hbox (14.45622pt too wide) in paragraph at lines 98--99
 []   [] 
  []
 
 
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 171--179
-[]   [] 
- []
-
-
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 171--179
-[]   [] 
- []
-
-
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 171--179
-[]   [] 
- []
-
-
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 171--179
-[]   [] 
- []
-
-
-Overfull \hbox (14.45622pt too wide) in paragraph at lines 171--179
-[]   [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--179
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 [2] (./CvCristhianVegaCortes.aux) ) 
 Here is how much of TeX's memory you used:
- 9629 strings out of 494958
- 175372 string characters out of 6179386
- 239971 words of memory out of 5000000
- 12800 multiletter control sequences out of 15000+600000
+ 10395 strings out of 494958
+ 185562 string characters out of 6179387
+ 257317 words of memory out of 5000000
+ 13546 multiletter control sequences out of 15000+600000
  8765 words of font info for 31 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 40i,5n,39p,10455b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,5n,41p,10436b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
@@ -770,7 +843,7 @@ ts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
 
-Output written on CvCristhianVegaCortes.pdf (2 pages, 69845 bytes).
+Output written on CvCristhianVegaCortes.pdf (2 pages, 69826 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
