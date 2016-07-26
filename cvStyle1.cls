@@ -6,6 +6,7 @@
 \ProvidesClass{cvStyle1}[2016/06/28 Curriculum Vitae Style 1]
 
 \RequirePackage[usenames,dvipsnames]{xcolor}
+\RequirePackage{enumitem}
 \RequirePackage{geometry}
 \RequirePackage{titlesec}
 \RequirePackage{mdframed}
@@ -45,7 +46,7 @@
     \end{minipage}
     \hspace{.02\linewidth}
     \begin{minipage}[t]{.7\linewidth}
-        \normalsize#1
+        \normalsize #1
         \newline
     \end{minipage}
     \newline
@@ -55,16 +56,17 @@
     \noindent
     \begin{minipage}[t]{.3\linewidth}
         \begin{flushright}
-            \textbf{\normalsize#1}
+            \textbf{\normalsize #1}
         \end{flushright}
     \end{minipage}
     \hspace{.02\linewidth}
     \begin{minipage}[t]{.7\linewidth}
         \noindent
-        \textbf{\normalsize#2}
-        \newline
-        {\normalsize#3}
-        \newline
+        \textbf{\normalsize #2}
+        
+        {\normalsize #3}
+        \vspace{2em}
+        %\newline
     \end{minipage}
     \newline
 }
@@ -73,14 +75,15 @@
     \noindent
     \begin{minipage}[t]{.3\linewidth}
         \begin{flushright}
-            \normalsize#1
+            \normalsize #1
         \end{flushright}
     \end{minipage}
     \hspace{.02\linewidth}
     \begin{minipage}[t]{.7\linewidth}
         \noindent
-        \normalsize#2
-        \newline
+        {\normalsize #2}
+        \vspace{2em}
+        %\newline
     \end{minipage}
     \newline
 }
