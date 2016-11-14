@@ -12,6 +12,8 @@
 \RequirePackage{mdframed}
 \RequirePackage{marvosym}
 \RequirePackage[spanish,english]{babel}
+\RequirePackage{fontawesome}
+\RequirePackage[hidelinks]{hyperref}
 
 \geometry{
     left=2cm,
