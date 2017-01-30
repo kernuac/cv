@@ -16,10 +16,10 @@
 \RequirePackage[hidelinks]{hyperref}
 
 \geometry{
-    left=2cm,
-    right=2cm,
-    top=2cm,
-    bottom=2cm,
+    left=4cm,
+    right=4cm,
+    top=4cm,
+    bottom=4cm,
 }
 
 \pagestyle{empty}
@@ -91,7 +91,7 @@
 }
 
 \newcommand{\contact}[3] {
-    \normalsize{\textcolor{gray}{#1 -- #2 -- \ttfamily#3}}
+    \normalsize{\textcolor{gray}{#1 -- #2 -- \\ #3}}
 }
 
 \newcommand{\major}[1] {
