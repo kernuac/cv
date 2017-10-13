@@ -16,10 +16,10 @@
 \RequirePackage[hidelinks]{hyperref}
 
 \geometry{
-    left=4cm,
-    right=4cm,
-    top=4cm,
-    bottom=4cm,
+    left=2cm,
+    right=2cm,
+    top=2cm,
+    bottom=2cm,
 }
 
 \pagestyle{empty}
