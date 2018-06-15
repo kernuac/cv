@@ -91,7 +91,7 @@
 }
 
 \newcommand{\contact}[3] {
-    \normalsize{\textcolor{gray}{#1 -- #2 -- \ttfamily#3}}
+    \normalsize{\textcolor{gray}{#1 -- #2 -- \\ #3}}
 }
 
 \newcommand{\major}[1] {
