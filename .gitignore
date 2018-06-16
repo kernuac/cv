@@ -1,0 +1,6 @@
+geany_run_script.sh
+*.log
+*.out
+*.aux
+**/*.log
+**/*.aux
