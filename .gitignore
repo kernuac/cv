@@ -4,3 +4,4 @@ geany_run_script.sh
 *.aux
 **/*.log
 **/*.aux
+**/*.out
