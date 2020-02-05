@@ -4,7 +4,6 @@
 \NeedsTeXFormat{LaTeX2e}
 
 \ProvidesClass{cvStyle1}[2016/06/28 Curriculum Vitae Style 1]
-
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{enumitem}
 \RequirePackage{geometry}
@@ -12,6 +11,7 @@
 \RequirePackage{mdframed}
 \RequirePackage{marvosym}
 \RequirePackage[spanish,english]{babel}
+\RequirePackage{fontspec}
 \RequirePackage{fontawesome}
 \RequirePackage[hidelinks]{hyperref}
 
