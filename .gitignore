@@ -5,3 +5,5 @@ geany_run_script.sh
 **/*.log
 **/*.aux
 **/*.out
+.vscode
+**/*.swp
